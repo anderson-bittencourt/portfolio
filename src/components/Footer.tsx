@@ -5,10 +5,7 @@ const Footer = () => {
         <p className="text-muted-foreground">
           © {new Date().getFullYear()} Anderson Andrade. Todos os direitos reservados.
         </p>
-        <p className="text-sm text-muted-foreground mt-2">
-          Desenvolvido com <span className="text-primary">React</span> e{" "}
-          <span className="text-primary">TypeScript</span>
-        </p>
+        
       </div>
     </footer>
   );

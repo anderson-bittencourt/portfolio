@@ -29,7 +29,7 @@ const Projects = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Meus <span className="text-gradient">Projetos</span>
+            <span className="text-gradient">Meus Projetos</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Alguns dos projetos que desenvolvi recentemente

@@ -6,10 +6,10 @@ const Skills = () => {
       title: "Frontend",
       skills: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Next.js"],
     },
-    {
-      title: "Backend",
-      skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
-    },
+    // {
+    //   title: "Backend",
+    //   skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
+    // },
     {
       title: "Ferramentas",
       skills: ["Git", "GitHub", "VS Code", "Figma", "Docker", "Vercel", "AWS"],
@@ -25,7 +25,7 @@ const Skills = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Minhas <span className="text-gradient">Skills</span>
+            <span className="text-gradient">Minhas Skills</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Tecnologias e ferramentas que domino para criar soluções completas

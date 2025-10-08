@@ -8,7 +8,7 @@ const Contact = () => {
       icon: MessageSquare,
       title: "WhatsApp",
       value: "+55 51 98636-7053",
-      link: "https://wa.me/5551986367053",
+      link: "",
       description: "Envie uma mensagem",
     },
     {
@@ -38,7 +38,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Entre em <span className="text-gradient">Contato</span>
+            <span className="text-gradient">Entre em Contato</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Vamos trabalhar juntos? Estou sempre aberto a novos projetos e oportunidades
@@ -80,7 +80,7 @@ const Contact = () => {
           {socialLinks.map((social, index) => {
             const Icon = social.icon;
             return (
-              <Button
+              <Button 
                 key={index}
                 variant="outline"
                 size="lg"
